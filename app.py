@@ -13,3 +13,7 @@ def setup_logging():
 	logging.basicConfig(level=logging.INFO)
 	logging.info("Logging initialized")
 
+def test_logging():
+	setup_logging()
+	logging.info("Test message")
+
