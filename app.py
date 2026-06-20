@@ -7,3 +7,9 @@ def main():
 if __name__ == "__main__":
 	main()
 
+import logging
+
+def setup_logging():
+	logging.basicConfig(level=logging.INFO)
+	logging.info("Logging initialized")
+
